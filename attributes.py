@@ -1,5 +1,5 @@
 import random
-from assorted import vectorAddtion
+from assorted import vector_addition
 
 
 
@@ -11,7 +11,7 @@ class Physics():
         forces.append(gravity)
         for force in forces:
             # print(velocity)
-            vectorAddtion(velocity , force)
+            vector_addition(velocity , force)
             # print(velocity)
         # print(velocity)
         
