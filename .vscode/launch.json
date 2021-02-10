@@ -15,9 +15,10 @@
             "name": "Python: main",
             "type": "python",
             "request": "launch",
-            "program": "main.py",
+            "program": "physics_engine/main.py",
             // "program": "${file}",
             "console": "integratedTerminal"
         }
-    ]
+    ],
+    
 }
