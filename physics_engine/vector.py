@@ -142,6 +142,8 @@ class Vector(Sequence):
         return self*factor
     
 
+    def __str__(self):
+        return str(self._vector)
     def copy(self):
         """Makes copy of Vector object
 

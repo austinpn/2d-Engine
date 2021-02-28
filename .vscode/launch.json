@@ -15,7 +15,7 @@
             "name": "Python: main",
             "type": "python",
             "request": "launch",
-            "program": "physics_engine/main.py",
+            "program": "console_test.py",
             // "program": "${file}",
             "console": "integratedTerminal"
         }
