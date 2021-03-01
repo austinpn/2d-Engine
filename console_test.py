@@ -3,9 +3,11 @@ import threading, multiprocessing
 
 import pygame
 
-from graphics.graphics_objects import Circle, Renderer, PrimarySurface
-from physics_engine.physics import CirclePhysicsObject, Engine
-from physics_engine.vector import Vector
+from graphics.graphics_objects import Circle, PrimarySurface
+from graphics.graphics_engine import Renderer
+from physics.physics_objects import CirclePhysicsObject
+from physics.physics_engine import Engine
+from physics.vector import Vector
 
 
 
@@ -48,6 +50,7 @@ while(run):
                 phys_obj.exert_force([0, -.05])
             if event.key == pygame.K_s:
                 phys_obj.exert_force([0, .05])
+            
         
     time.sleep(.5)
 phys_engine.kill()

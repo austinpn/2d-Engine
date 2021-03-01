@@ -1,6 +1,7 @@
 
 from numbers import Number
 from collections.abc import Sequence
+
 class Vector(Sequence):
     """Defines vector object.
     """
@@ -167,7 +168,6 @@ class Vector(Sequence):
 
     def update(self, sequence):
         self._vector = list(sequence)
-
 
 def get_inert_vector(dimension: int)-> Vector:
     """Getter for zeroed vector of given dimension
